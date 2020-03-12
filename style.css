@@ -1,0 +1,26 @@
+h1 {
+    color: teal;
+    font-family: sans-serif
+}
+
+p {
+    font-family: sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    padding: 20px;
+    background-color: gray
+}
+
+#main_content {
+    width: 50%;
+    background-color: white;
+    padding: 30px;
+}
+
+#profile {
+    height: 300px;
+    width: 230px;
+    padding: 20px;
+}
