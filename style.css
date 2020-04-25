@@ -1,85 +1,221 @@
-h1 {
-    color: teal;
-    font-family: sans-serif
+body {
+  /* background-image: url("/assets/market-2669499_1920.jpg"); */
+  background-color: #27496d;
+  background-color: #dae1e7;
+  font-family: 'Montserrat';
+  font-size: 15px;
+}
+
+.zip-code-input-button {
+
+  margin-top: 2.6rem;
+
+}
+
+.markets-initial-text {
+  padding-left: 1.3rem;
+}
+
+
+p {
+  font-size: larger;
+}
+
+.brand-logo {
+  margin-left: 0.8rem;
+}
+
+#logo-img {
+
+  margin-top: 0.3rem;
+  max-height: 3.5rem;
+  max-width: auto;
+}
+
+#nav-mobile-items {
+
+  font-size: large;
+}
+
+.nav-wrapper {
+  background-color: #27496d;
+}
+
+.navbar {
+  margin: 20px;
+}
+
+
+.card1 {
+  padding: 20px;
+  width: 100%;
+}
+
+.cards-image {
+  float: "left";
+
+}
+
+.brand-logo {
+  margin-left: 10px;
+}
+
+.container {
+  background-color: #27496d;
+}
+
+
+.wrapper {
+  margin: 20px;
+}
+
+.contactcontainer {
+  border: 20px;
+  border-color: #dae1e7;
+}
+
+.vendor-list {
+  margin: 20px;
+}
+
+.card-image {
+  width: 100px;
+  height: 150px;
+}
+
+.card2 {
+  background-color: #dae1e7;
+}
+
+#opener {
+  margin-left: 10px;
+  color: white;
+}
+
+.blue-box {
+  background-color: #27496d;
+  color: white;
+}
+
+#card-title {
+  color: white;
+}
+
+
+.market-list {
+  margin: 20px;
+}
+
+#market-image {
+  height: 140px;
+  width: 741px;
 }
 
 p {
-    font-family: sans-serif;
+  font-size: larger;
 }
 
-.wrapper {
-    width: 100%;
-    padding: 20px;
-    background-color: gray
+.brand-logo {
+  margin-left: 0.8rem;
 }
 
-#main_content {
-    width: 50%;
-    background-color: white;
-    padding: 30px;
+#logo-img {
+
+  margin-top: 0.3rem;
+  max-height: 3.5rem;
+  max-width: auto;
 }
 
-#profile {
-    height: 300px;
-    width: 230px;
-    padding: 20px;
+#nav-mobile-items {
+
+  font-size: large;
 }
 
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-color: #f1f1f1;
-    padding: 20px;
-    font-family: Arial;
-  }
-  
-  /* Center website */
-  .main {
-    max-width: 1000px;
-    margin: auto;
-  }
-  
-  h1 {
-    font-size: 50px;
-    word-break: break-all;
-  }
-  
-  .row {
-    margin: 8px -16px;
-  }
-  
-  /* CSS FOR PORTFOLIO*/
-  .row,
-  .row > .column {
-    padding: 8px;
-  }
-  
-  .column {
-    float: left;
-    width: 25%;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  .content {
-    background-color: white;
-    padding: 10px;
-  }
-  
-  @media screen and (max-width: 992px) {
-    .column {
-      width: 50%;
-    }
-  }
-  
-  @media screen and (max-width: 640px) {
-    .column {
-      width: 100%;
-    }
-  }
+.nav-wrapper {
+  background-color: #27496d;
+}
+
+#home-map {
+  margin-top: 2rem;
+  float: right;
+  max-width: 500px;
+  max-height: auto;
+
+  margin-right: 3rem;
+}
+
+#home-weather {
+  margin-top: 2rem;
+  float: left;
+  max-width: 500px;
+  max-height: auto;
+}
+
+.coming-weather-txt {
+  float: right;
+}
+
+.text-on-left {
+  text-align: left;
+}
+
+
+.btn {
+  background-color: #dae1e7;
+}
+
+.parallax-container-1 {
+  height: 500px;
+}
+
+.parallax-container-2 {
+  height: 400px;
+}
+
+.footer-sponsors {
+  width: 150px;
+  height: auto;
+}
+
+.footer-sponsors {
+  max-height: auto;
+  max-width: 150px;
+
+
+}
+
+.container2 {
+  background-color: #27496d;
+}
+
+#home-map {
+  padding-bottom: 20px;
+}
+
+.sponsors2 {
+  width: 100px;
+  height: 100px;
+}
+
+.container3 {
+  width: 800px;
+}
+
+
+
+.contact-container {
+  margin-bottom: 1.5rem;
+}
+
+.video {
+  padding-left: 10%;
+}
+
+#card-title2 {
+  padding-left: 15%;
+  color: white;
+}
+
+p {
+  color: white;
+}

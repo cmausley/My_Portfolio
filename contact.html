@@ -1,54 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" style="padding: 20px; background-color: teal; margin-top: -10px; margin-bottom: -10px; color:white; font-weight: bold;" href="#">Christina Ausley</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">About</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-          </ul>
-        </div>
+  <div class=navbar>
+      <nav>
+          <div class="nav-wrapper">
+              <a href="index.html" class="brand-logo">Christina Ausley</a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                  <li><a id="nav-mobile-items" href="contact.html">Contact</a></li>
+                  <li><a id="nav-mobile-items" href="portfolio.html">Portfolio</a></li>
+              </ul>
+          </div>
       </nav>
-    <div class="wrapper">
-    <div id="main_content">
-        <h1>Contact</h1>
-        <hr />
-        <form>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Name</label>
-              <input type="email" class="form-control" placeholder="Name">
+  </div>
+
+    <div class="parallax-container parallax-container-1">
+        <div class="parallax"><img src="assets/images/seattle-3429902_1920.jpg"></div>
+    </div>
+    <div class="section white">
+        <div class="row container">
+            <div class="col s6 contact-container">
+                <h2 class="header" id="card-title">Contact Me</h2>
+                <div class="container">
+                    <form action="action_page.php">
+
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="firstname" placeholder="Name">
+
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="Email">
+
+                        <label for="message">Message</label>
+                        <select id="message" name="message">
+                        </select>
+
+                        <label for="subject"></label>
+                        <textarea id="subject" name="subject" placeholder="Write something..."
+                            style="height:200px"></textarea>
+
+                        <input type="submit" value="Submit">
+
+                        <p id="email">Or, email me at christinamausley@gmail.com</p>
+
+                    </form>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="exampleInputEmail1">Email</label>
-                <input type="email" class="form-control" placeholder="Email">
-            </div>
-            <div class="form-group" id=message>
-                <label for="subject">Message</label>
-                <br>
-                <textarea id="subject" name="subject" placeholder="Write something..." style="height: 100px; width: 100%;"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
+            <img class="col s5" id="home-map" src="assets/images/space-needle-918798.jpg">
+        </div>
     </div>
     </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+
 </body>
+
 </html>

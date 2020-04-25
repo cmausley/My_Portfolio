@@ -1,99 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" style="padding: 20px; background-color: teal; margin-top: -10px; margin-bottom: -10px; color:white; font-weight: bold;" href="#">Christina Ausley</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-          </ul>
-        </div>
+  <div class=navbar>
+      <nav>
+          <div class="nav-wrapper">
+              <a href="index.html" class="brand-logo">Christina Ausley</a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                  <li><a id="nav-mobile-items" href="contact.html">Contact</a></li>
+                  <li><a id="nav-mobile-items" href="portfolio.html">Portfolio</a></li>
+              </ul>
+          </div>
       </nav>
-    <div class="wrapper">
-    <div id="main_content">
-        <h1>Portfolio</h1>
-        <hr />
-      
-        <div>
-        <div class="row">
-          <div class="column">
-            <div class="content">
-              <img src="assets/images/350x350.png" alt="work1" style="width:100%">
-              <h3>My Work</h3>
-              <p>Description of work..</p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="content">
-              <img src="assets/images/350x350.png" alt="work2" style="width:100%">
-              <h3>My Work</h3>
-              <p>Description of work..</p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="content">
-              <img src="assets/images/350x350.png" alt="work3" style="width:100%">
-              <h3>My Work</h3>
-              <p>Description of work..</p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="content">
-              <img src="assets/images/350x350.png" alt="work4" style="width:100%">
-              <h3>My Work</h3>
-              <p>Description of work..</p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="content">
-              <img src="assets/images/350x350.png" alt="work5" style="width:100%">
-              <h3>My Work</h3>
-              <p>Description of work..</p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="content">
-              <img src="assets/images/350x350.png" alt="work6" style="width:100%">
-              <h3>My Work</h3>
-              <p>Description of work..</p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="content">
-              <img src="assets/images/350x350.png" alt="work7" style="width:100%">
-              <h3>My Work</h3>
-              <p>Description of work..</p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="content">
-              <img src="assets/images/350x350.png" alt="work8" style="width:100%">
-              <h3>My Work</h3>
-              <p>Description of work..</p>
-            </div>
-          </div>
-        
-        
+  </div>
+
+  <div class="section white">
+    <div class="row container">
+      <div class="col s6">
+        <h2 id="card-title">Portfolio</h2>
+        <p id="card-title">Explore my portfolio and resume below, or take a look at my GitHub profile at https://github.com/cmausley</p>
+      </div>
+      <img class="col s5" id="home-map" src="assets/images/market-4020378_1920.jpg">
     </div>
+  </div>
+
+  <div class="parallax-container parallax-container-1">
+    <div class="parallax"><img src="assets/images/seal-5048013_1920.jpg"></div>
+  </div>
+
+  <div class="vendor-list">
+
+    <div class="col s12 m7">
+      <h5 class="header">Resume</h5>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="assets/images/IMG-9623.JPG">
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <p> <a href="resume.html">Click here to link to a pdf of my complete resume.</a></p>
+  
+          </div>
+        </div>
+      </div>
     </div>
+
+    <div class="col s12 m7">
+      <h5 class="header">Where's My Veggie?</h5>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="assets/images/peppers-346767_1920.jpg">
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <p> <a href="https://cristianmontenegrop.github.io/07Project-Where-s-my-veggie.com/">This is my first group project published with the University of Washington Full-Stack Coding Bootcamp, in which we connected users with local farmers and farmer's markets using HTML, CSS, Javascript, and web APIs.</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m7">
+      <h5 class="header">Project 2</h5>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="assets/flowers.jpg">
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <p> <a href="flowers.html">Description of project 2...</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m7">
+      <h5 class="header">Project 3</h5>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="assets/fruit.jpg">
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <p> <a href="fruit.html">Description of project 3...</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="script.js"></script>
+
 </body>
+
 </html>

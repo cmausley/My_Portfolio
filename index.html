@@ -1,42 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>About</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" style="padding: 20px; background-color: teal; margin-top: -10px; margin-bottom: -10px; color:white; font-weight: bold;" href="#">Christina Ausley</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-          </ul>
+    <div class=navbar>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo">Christina Ausley</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a id="nav-mobile-items" href="contact.html">Contact</a></li>
+                    <li><a id="nav-mobile-items" href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="parallax-container parallax-container-1">
+        <div class="parallax"><img src="assets/images/city-skyline-693502.jpg"></div>
+    </div>
+
+    <div class="section white">
+        <div class="row container">
+            <div class="col s6">
+                <h2 class=" header" id="card-title">About</h2>
+                <p id="card-title">Christina graduated from The University of Alabama in May of 2019 with degrees in journalism and psychology. A week later, she drove 2,300 miles from her hometown of Louisville, Kentucky, to Seattle, Washington. Here, she works as an editorial assistant for a digital newspaper founded in 1863, the Seattle P-I. The paper is now a branch of Hearst Communications, one of the world's largest diversified communications companies.</p>
+            </div>
+            <img class="col s5" id="home-map" src="assets/images/IMG_0702.jpg">
         </div>
-      </nav>
-    <div class="wrapper">
-    <div id="main_content">
-        <h1>About Me</h1>
-        <hr />
-        <img src="assets/images/IMG-9623.JPG" alt="profile photo" id="profile" align="left">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius consectetur eros, gravida ultricies risus ornare eu. Curabitur sapien orci, condimentum id metus at, tempus varius turpis. Nunc in massa quis dolor laoreet dictum consequat in est. Curabitur luctus pellentesque varius. Proin mattis elit tincidunt, ornare magna id, laoreet ligula. Suspendisse euismod laoreet sem sit amet bibendum. Mauris a ligula dolor. Phasellus pretium felis id ante placerat laoreet. Sed mollis leo ut lacus pellentesque molestie. Etiam ut felis fermentum, dictum urna lobortis, molestie orci. </p>
-            
-        <p>Vestibulum consectetur venenatis urna nec fermentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus id malesuada ipsum, at porttitor dolor.</p>
     </div>
+
+    <div class="parallax-container parallax-container-2">
+        <div class="parallax"><img src="assets/images/ferry-817303_1920.jpg"></div>
     </div>
+
+    <div class="section white">
+        <div class="row container">
+            <img class="col s5" id="home-weather"> <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/16g7PLQGxmI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="coming-weather-txt col s7">
+                <h2 class="coming-weather-txt header"></h2>
+                <p id="card-title2">Christina is now enrolled in the University of Washington's full-stack web development bootcamp, and also has extensive experience writing professionally for various travel snd lifestyle publications in cities like London and Seattle. Christina is particularly interested in digital content, web development, travel writing, and food writing. Learn more about her via her LinkedIn page, <a href="https://www.linkedin.com/in/christina-ausley-a02135134/">here.</a></p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+
 </body>
+
 </html>
