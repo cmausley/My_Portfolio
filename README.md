@@ -8,6 +8,8 @@ https://cmausley.github.io/My_Portfolio/
 Highlights
 Since all I know at this point is HTML, CSS, and JavaScript, I tried to incorporate new styling with Materialize, utilizing the Parallax feature. 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cbRjd4FKuLk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 I also linked in a more personalized video with some more information about myself, beyond what's just on my resume or tucked inside my portfolio.
 
 For Future Reference
